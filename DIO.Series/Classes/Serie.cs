@@ -16,7 +16,7 @@ namespace DIO.Series
         // Metodos
         public Serie(int id, Genero genero, string titulo, string descricao, int ano)
         {
-            this.Id = Id;
+            this.Id = id;
             this.Genero = genero;
             this.Titulo = titulo;
             this.Descricao = descricao;
@@ -34,6 +34,11 @@ namespace DIO.Series
             return this.Id;
         }
 
+        public bool RetornaExcluido()
+        {
+            return this.Excluido;
+        }
+
         public void Excluir()
         {
             this.Excluido = true;
@@ -45,7 +50,8 @@ namespace DIO.Series
             retorno += "Gênero: " + this.Genero + Environment.NewLine;
             retorno += "Título: " + this.Titulo + Environment.NewLine;
             retorno += "Descrição: " + this.Descricao + Environment.NewLine;
-            retorno += "Ano de início: " + this.Ano;
+            retorno += "Ano de início: " + this.Ano + Environment.NewLine;
+            retorno += "Excluido: " + this.Excluido;
             return retorno;
         }
 

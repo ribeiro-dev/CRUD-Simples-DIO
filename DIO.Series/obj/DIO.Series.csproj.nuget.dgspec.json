@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/rafael/Estudos/DIO/DIO.Series/DIO.Series.csproj": {}
+    "/home/rafael/Estudos/DIO/CRUD/DIO.Series/DIO.Series.csproj": {}
   },
   "projects": {
-    "/home/rafael/Estudos/DIO/DIO.Series/DIO.Series.csproj": {
+    "/home/rafael/Estudos/DIO/CRUD/DIO.Series/DIO.Series.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/rafael/Estudos/DIO/DIO.Series/DIO.Series.csproj",
+        "projectUniqueName": "/home/rafael/Estudos/DIO/CRUD/DIO.Series/DIO.Series.csproj",
         "projectName": "DIO.Series",
-        "projectPath": "/home/rafael/Estudos/DIO/DIO.Series/DIO.Series.csproj",
+        "projectPath": "/home/rafael/Estudos/DIO/CRUD/DIO.Series/DIO.Series.csproj",
         "packagesPath": "/home/rafael/.nuget/packages/",
-        "outputPath": "/home/rafael/Estudos/DIO/DIO.Series/obj/",
+        "outputPath": "/home/rafael/Estudos/DIO/CRUD/DIO.Series/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/rafael/.nuget/NuGet/NuGet.Config"
